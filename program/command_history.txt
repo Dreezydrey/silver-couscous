@@ -1,0 +1,1000 @@
+  415  sudo apt update
+  416  ip address show
+  417  firefox &
+  418  df -H
+  419  udev
+  420  ping 10.0.2.15
+  421  ping 127.0.0.1
+  422  ping 10.0.2.15
+  423  ip -a
+  424  sudo apt install Inkscape
+  425  sudo  apt install apt-transport-https
+  426  wget https://swupdate.openvpn.net/repos/openvpn-repo-pkg-key.pub
+  427  apt-key add openvpn-repo-pkg-key.pub
+  428  sudo apt-key add openvpn-repo-pkg-key.pub
+  429  apt update
+  430  sudo apt update
+  431  sudo apt install openvpn3
+  432  sudo apt update
+  433  sudo apt install openvpn3
+  434  sudo apt install Openvpn3
+  435  sudo apt install openvpn3
+  436  sudo apt autoremove
+  437  sudo apt install openvpn3
+  438  uname -a
+  439  ifconfig 
+  440  sudo ifconfig wlx503eaad71034 down
+  441  ifconfig 
+  442  sudo ifconfig wlx503eaad71034 up
+  443  ifconfig 
+  444  sudo ifconfig wlx503eaad71034 down
+  445  sudo ifconfig wlp2s0 down
+  446  sudo ifconfig wlp2s0 up
+  447  sudo ifconfig wlx503eaad71034 up
+  448  firefox &
+  449  wget -O /etc/apt/sources.list.d/openvpn3.list https://swupdate.openvpn.net/community/openvpn3/repos/openvpn3-bionic.list
+  450  sudo wget -O /etc/apt/sources.list.d/openvpn3.list https://swupdate.openvpn.net/community/openvpn3/repos/openvpn3-bionic.list
+  451  sudo apt update 
+  452  apt install openvpn3
+  453  sudo apt install openvpn3
+  454  openvpn3 session-start --config ${MY_CONFIGURATION_FILE}
+  455  cat /usr/share/doc/openvpn3/
+  456  nl /var/log/syslog
+  457  cat /var/log/syslog | tail hostname
+  458  cat /var/log/syslog | grep hostname
+  459  tail /var/log/syslog | grep hostname
+  460  ls /etc | tail
+  461  history 
+  462  history | tail
+  463  history | tail -n +450
+  464  cat /var/log/syslog >> syslog.txt
+  465  nl --help 
+  466  ln syslog.txt 
+  467  cat
+  468  id
+  469  tail /etc/passwd
+  470  id --help
+  471  id -g
+  472  id -r
+  473  id -u
+  474  d
+  475  systemd
+  476  history
+  477  systemd-analyze blame 
+  478  uptime
+  479  systemd-analyze 
+  480  sudo apt update 
+  481  sudoapt install python3-pip
+  482  sudo apt install python3-pip
+  483  sudo apt install python-pip
+  484  sudo apt-get install python-pip
+  485  which pip
+  486  wget -P Downloads/ https://svn.apache.org/repos/asf/oodt/tools/oodtsite.publisher/trunk/distribute_setup.py
+  487  sudo python Downloads/distribute_setup.py 
+  488  sudo apt-get install python3-pip
+  489  sudo add-apt-repository universe
+  490  gedit /etc/apt/sources.list
+  491  sudo gedit /etc/apt/sources.list
+  492  sudo nano /etc/apt/sources.list
+  493  sudo apt update 
+  494  sudo apt install python3-pip
+  495  sudo apt install -f python3-pip
+  496  cat /var/log/dist-upgrade/apt.log
+  497  dpkg -l | grep ^iU | awk '{print $2}' | xargs sudo dpkg --purge 
+  498  sudo apt-get autoremove 
+  499  sudo apt install -f python3-pip
+  500  uname -a
+  501  sudo apt install ubuntu18.04.2
+  502  "Install": {
+  503  sudo apt install -f python3-pip
+  504  top
+  505  sudo apt install unrar
+  506  cd Downloads/
+  507  ls
+  508  unrar e Udemy-Ultimate-Photoshop-Training-From-Beginner-to-Pro-2019-11_www.Downloadha.com.part1.rar 
+  509  ls
+  510  cd ..
+  511  ls
+  512  sort < wget-log 
+  513  grep &request wget-log 
+  514  grep $request wget-log 
+  515  grep \request wget-log 
+  516  grep *request wget-log 
+  517  grep request* wget-log 
+  518  firefox &&
+  519  firefox &
+  520  ls
+  521  ls openvpn-repo-pkg-key.pub 
+  522  less openvpn-repo-pkg-key.pub 
+  523  head openvpn-repo-pkg-key.pub 
+  524  head nl openvpn-repo-pkg-key.pub 
+  525  head -nl openvpn-repo-pkg-key.pub 
+  526  nl openvpn-repo-pkg-key.pub 
+  527  nl 5 openvpn-repo-pkg-key.pub 
+  528  nl -n 5 openvpn-repo-pkg-key.pub 
+  529  nl -c 5 openvpn-repo-pkg-key.pub 
+  530  head -6 openvpn-repo-pkg-key.pub 
+  531  head 13 openvpn-repo-pkg-key.pub 
+  532  tail -f /var/log/syslog
+  533  python /home/drey/Downloads/dreezy.py
+  534  cd Downloads/
+  535  pwd
+  536  ls
+  537  htop
+  538  Htop
+  539  top
+  540  sudo -u -i postgres
+  541  psql
+  542  sudo -i - u postgres
+  543  sudo -i -u postgres
+  544  systemd status
+  545  history
+  546  systemd-analyze 
+  547  sudo apt update
+  548  uname -a
+  549  sudo nano /etc/apt/sources.list
+  550  sudo python -c "import sys; py3 = sys.version_info[0] > 2; u = __import__('urllib.request' if py3 else 'urllib', fromlist=1); exec(u.urlopen('http://status.calibre-ebook.com/linux_installer').read()); main()"
+  551  sudo python -c "import sys; py3 = sys.version_info[0] > 2; u = __import__('urllib.request' if py3 else 'urllib', fromlist=1); exec(u.urlopen('http://status.calibre-ebook.com/linux_installer').read()); main(install_dir='/path/to/your/library')"
+  552  sudo add-apt-repository ppa:n-muench/calibre2
+  553  sudo systemctl restart 
+  554  systemctl restart 
+  555  lsb_release -a
+  556  hostnamectl
+  557  udev
+  558  udevadm 
+  559  udevadm info 
+  560  udevadm test
+  561  hostnamectl
+  562  lsb_release -a
+  563  uname
+  564  uname -m
+  565  uname -r
+  566  uname -h
+  567  uname --h
+  568  uname --help
+  569  uname -s
+  570  uname -o
+  571  uname -i
+  572  uname -isnmrvpo
+  573  uname -n
+  574  firefox version
+  575  lsb_release -a
+  576  sudo systemctl reboot 
+  577  sudo apt update 
+  578  sudo apt upgrade-dis
+  579  sudo apt upgrade-distro
+  580  sudo apt install upgrade 
+  581  uname -a
+  582  hostname
+  583  id
+  584  ubuntu support status
+  585  ubuntu-support status
+  586  sudo ubuntu-support status
+  587  sudo ubuntu-support-status
+  588  apt list --upgradable 
+  589  sudo apt upgrade 
+  590  ls
+  591  cd Desktop/
+  592  ls
+  593  sudo systemctl reboot 
+  594  top
+  595  sudo systemctl poweroff 
+  596  sudo apt update 
+  597  echo $DESKTOP_SESSION
+  598  sudo apt autoremove 
+  599  top
+  600  lsmod | grep nvidia
+  601  lsmod | grep nouveau
+  602  hostnamectl 
+  603  lshw -c
+  604  lshw -c -short
+  605  sudo lshw -c -short
+  606  sudo lshw -c -video
+  607  lspci -nnk | grep -i vga -A3 | grep 'in use'
+  608  lspci -nnk | grep -i vga -A3
+  609  lspci -nnk | grep -i vga -A3 | grep 'in use' -e VGA
+  610  lspci -nnk | grep -i vga -A3 | grep -e 'in use' -e VGA
+  611  glxinfo -B
+  612  sudo lshw -c -video
+  613  sudo lshw -c video
+  614  glxinfo -B
+  615  sudo apt install mesa-utils
+  616  glxinfo -B
+  617  sudo ubuntu-drivers devices
+  618  sudo ubuntu-drivers autoinstall
+  619  ps -A | grep nautilus
+  620  top
+  621  dpkg --grt-selections | grep i915
+  622  sudo apt install ubuntu-desktop
+  623  sudo systemctl reboot 
+  624  sudo apt-get purge chrome-remote-desktop
+  625  sudo apt update
+  626  sudo apt upgrade 
+  627  reboot
+  628  curl localhost
+  629  curl ifconfig.me
+  630  ifconfig
+  631  firefox &
+  632  hostnamectl
+  633  vlc
+  634  top
+  635  systemd-analyze blame 
+  636  top
+  637  sudo apt update
+  638  sudo dpkg --add-architecture i386
+  639  wget -qO- https://dl.winehq.org/wine-builds/Release.key | sudo apt-key add -
+  640  sudo apt-add-repository 'deb http://dl.winehq.org/wine-builds/ubuntu/ artful main'
+  641  sudo apt-get install --install-recommends winehq-stable
+  642  sudo apt-get uninstall --install-recommends winehq-stable
+  643  sudo apt-get --purge remove wine
+  644  sudo apt autoremove
+  645  sudo apt-get remove wine
+  646  which wine
+  647  sudo apt-get remove wine --purge
+  648  rm -rf $HOME/.wine
+  649  rm -f $HOME/.config/menus/applications-merged/*wine*
+  650  reboot
+  651  python3
+  652  sudo gedit 
+  653  ls -la dreezy.sh 
+  654  chmod x dreezy.sh 
+  655  chmod u+x dreezy.sh 
+  656  sudo chmod u+x dreezy.sh 
+  657  ls -la dreezy.sh 
+  658  ./dreezy.sh
+  659  sudo ./dreezy.sh
+  660  sudo chmod 777 dreezy.sh 
+  661  ./dreezy.sh 
+  662  ./dreezy
+  663  sudo ./dreezy
+  664  ./dreezy
+  665  ./dreezy.sh
+  666  sudo ./dreezy.sh
+  667  ls -la
+  668  sudo chmod 777 dreezy.sh 
+  669  sudo ./dreezy.sh
+  670  history 
+  671  curl ifconfig.me
+  672  sudo ./dreezy.sh
+  673  curl ifconfig.me
+  674  ifconfig 
+  675  ifconfig enp3s0 restart
+  676  sudo ifconfig enp3s0 restart
+  677  sudo ifconfig enp3s0 down
+  678  sudo ifconfig enp3s0 up
+  679  ifconfig
+  680  sudo ifconfig enp3s0 down
+  681  ifconfig
+  682  sudo ifconfig enp3s0 up
+  683  ifconfig
+  684  ip a
+  685  nano /etc/crontab 
+  686  sudo ./dreezy.sh 
+  687  whoami
+  688  pwd
+  689  id
+  690  sudo ./dreezy.sh 
+  691  cat /proc/mdstat 
+  692  sudo ./dreezy.sh 
+  693  sudo gedit dreezy.sh &
+  694  top
+  695  du
+  696  tail -f /var/log/syslog
+  697  fsck -E
+  698  fsck -p
+  699  df -H
+  700  reboot
+  701  firefox &
+  702  sudo nano /etc/apt/apt.conf.d/
+  703  sudo cat /etc/apt/apt.conf.d/50unattended-upgrades 
+  704  sudo gedit /etc/apt/apt.conf.d/50unattended-upgrades 
+  705  sudo gedit /etc/apt/apt.conf.d/50unattended-upgrades &
+  706  sudo gedit /etc/apt/apt.conf.d/50command-not-found &
+  707  sudo gedit /etc/apt/apt.conf.d/50unattended-upgrades &
+  708  +
+  709  poweroff
+  710  sudo apt install python3-pip
+  711  python --version
+  712  python3 --version
+  713  curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+  714  pip -V
+  715  python3 get-pip.py 
+  716  pip -V
+  717  pip3 -V
+  718  netstat 
+  719  netstat -T
+  720  netstat -a
+  721  netstat -h
+  722  netstat -ci
+  723  python /home/drey/Downloads/tutorials.py
+  724  clear
+  725  python /home/drey/Downloads/tutorials.py
+  726  python /home/drey/.vscode/extensions/ms-python.python-2020.6.89148/pythonFiles/pyvsc-run-isolated.py pip install -U "pylint<2.0.0" --user
+  727  python /home/drey/Downloads/tutorials.py
+  728  python3 tutorials.py
+  729  cd Downloads/
+  730  python3 tutorials.py
+  731  poweroff
+  732  python /home/drey/Downloads/tutorials.py
+  733  /usr/bin/python3 /home/drey/Downloads/tutorials.py
+  734  /usr/bin/python3
+  735  /usr/bin/python3 /home/drey/Downloads/tutorials.py
+  736  /usr/bin/python3 /home/drey/Downloads/tutorials.py/usr/bin/python3 /home/drey/Downloads/pythonchallenges.py
+  737  /usr/bin/python3 /home/drey/Downloads/pythonchallenges.py
+  738  cd Downloads/
+  739  python3 tutorials.py 
+  740  python3
+  741  python3 pythonchallenges.py 
+  742  python3 another_challenge.py 
+  743  /usr/bin/python3 /home/drey/Downloads/another_challenge.py
+  744  /usr/bin/python3
+  745  /usr/bin/python3 /home/drey/Downloads/another_challenge.py
+  746  /usr/bin/python3 /home/drey/Downloads/dreezy.py
+  747  /usr/bin/python3 /home/drey/Downloads/astring.py
+  748  peter piper picked a pack of paper coins
+  749  /usr/bin/python3 /home/drey/Downloads/astring.py
+  750  top
+  751  /usr/bin/python3 /home/drey/Downloads/forloopchallenges.py
+  752  ps --pid 1
+  753  sudo systemctl list-unit-files --state=disabled
+  754  sudo systemctl enable httpd
+  755  sudo systemctl list-unit-files --state=enabled
+  756  sudo systemctl list-unit-files --state=disabled
+  757  sudo systemctl list-unit-files --state=enabled
+  758  ls
+  759  cat java_error_in_PYCHARM_19662.log 
+  760  sudo apt update 
+  761  sudo apt install libre office
+  762  sudo apt install libreoffice
+  763  ls
+  764  cd Downloads/
+  765  ls
+  766  ls client.py 
+  767  python3 client.py 
+  768  netstat
+  769  clear
+  770  python3 client.py 
+  771  clear
+  772  cd Downloads/
+  773  python client.py 
+  774  top
+  775  /usr/bin/python3 /home/drey/Downloads/client.py
+  776  /usr/bin/python3 /home/drey/Downloads/forloopchallenges.py
+  777  clear
+  778  /usr/bin/python3 /home/drey/Downloads/forloopchallenges.py
+  779  clear
+  780  /usr/bin/python3 /home/drey/Downloads/forloopchallenges.py
+  781  clear
+  782  /usr/bin/python3 /home/drey/Downloads/client.py
+  783  clear
+  784  /usr/bin/python3 /home/drey/Downloads/forloopchallenges.py
+  785  clear
+  786  /usr/bin/python3 /home/drey/Downloads/forloopchallenges.py
+  787  /usr/bin/python3 /home/drey/Downloads/dreezy.py
+  788  +~[6~[3~
+  789  /usr/bin/python3 /home/drey/Downloads/dreezy.py
+  790  python client.py 
+  791  cd Downloads/
+  792  python client.py 
+  793  clear
+  794  python3 client.py 
+  795  cd ..
+  796  ls
+  797  cd Pictures/
+  798  ls
+  799  xz
+  800  xz --help
+  801  xz -z ADV8817646028.mp3 
+  802  ls
+  803  ls -la
+  804  ls -laH
+  805  ls --help
+  806  ls -lah
+  807  sudo apt install tor torsocks proxychains
+  808  tor --harsh-pasword "Mwanawamusoro"
+  809  nano /etc/tor/torrc 
+  810  sudo nano /etc/tor/torrc 
+  811  clear
+  812  curl 'https://api.ipify.org'
+  813  clear
+  814  curl ifconfig.me
+  815  torsocks curl ifconfig.me
+  816  torsocks firefox
+  817  curl ifconfig.me
+  818  sudo nano /etc/tor/torrc 
+  819  systemctl restart tor
+  820  curl ifconfig.me
+  821  torsocks curl 'https://api.ipify.org'
+  822  proxychains curl 'https://api.ipify.org'
+  823  proxychains firefox
+  824  proxychains vivaldi
+  825  service tor status 
+  826  top
+  827  systemctl status tor
+  828  systemctl start tor
+  829  systemctl status tor
+  830  systemctl stop tor
+  831  systemctl status tor
+  832  systemctl start tor
+  833  clear\
+  834  clear
+  835  proxychains vivaldi&
+  836  sudo gedit /etc/proxychains.conf 
+  837  service restart tor
+  838  service tor restart 
+  839  hostname
+  840  hostid 
+  841  hostnamectl status 
+  842  hostnamectl set-hostname dreezy
+  843  hostnamectl status 
+  844  hostnamectl
+  845  uptime
+  846  id
+  847  w
+  848  who
+  849  ps aux
+  850  obs-studio 
+  851  lspci -k | grep -EA3 'VGA | Display|3D
+  852  lspci -nnk | grep -i vga -A3|grep 'in use'
+  853  sudo lshw -c video
+  854  lspci -k | grep -EA3 'VGA | Display|3D'
+  855  glxinfo | grep OpenGL
+  856  obs-studio 
+  857  sudo hwinfo --gfxcard --short
+  858  sudo prime-select query
+  859  sudo ubuntu-drivers devices
+  860  sudo ubuntu-drivers 
+  861  sudo ubuntu-drivers autoinstall
+  862  sudo apt install nvidia-driver-390 
+  863  nvidia-smi 
+  864  reboot
+  865  /usr/bin/python3
+  866  /usr/bin/python3 /home/drey/Downloads/dreezy.py
+  867  /usr/bin/python3 /home/drey/Downloads/angry_calculator.py
+  868  nvidia-smi 
+  869  obs-studio 
+  870  sudo dpkg -l | grep Nvidia
+  871  sudo dpkg -l | grep -i Nvidia
+  872  sudo apt remove --purge '^nvidia-.*'
+  873  sudo echo 'nouveau' | sudo tee -a /etc/modules
+  874  sudo ubuntu-drivers 
+  875  sudo ubuntu-drivers --gpgpu
+  876  clear
+  877  kmkm
+  878  clear
+  879  less
+  880  clear
+  881  less -f /var/log/syslog
+  882  setting
+  883  settings
+  884  unity-control-center
+  885  gnome-control-center 
+  886  cat /usr/lib/
+  887  ls -l libcrypt*
+  888  clear
+  889  poweroff
+  890  curl ifconfig.me
+  891  sudo nano /etc/network/interfaces 
+  892  if down; enp3s0
+  893  sudo ifconfig enp3s0 down
+  894  sudo ifconfig enp3s0 up
+  895  ifconfig
+  896  top
+  897  sudo nano /etc/network/interfaces 
+  898  sudo ifconfig enp3s0 down
+  899  sudo ifconfig enp3s0 up
+  900  ifconfig
+  901  clear
+  902  ifconfig
+  903  sudo nano /etc/network/interfaces 
+  904  cd /etc/netplan/
+  905  ls
+  906  cat 01-network-manager-all.yaml 
+  907  sudo gedit 01-netcfg.yaml
+  908  ls
+  909  sudo netplan apply
+  910  sudo gedit 01-netcfg.yaml 
+  911  sudo ifconfig enp3s0 up
+  912  sudo lshw -class network
+  913  ifconfig
+  914  cd ../..
+  915  pwd
+  916  cd ~
+  917  ifconfig
+  918  ip a
+  919  nmcli
+  920  ip a
+  921  nano /etc/network/interfaces 
+  922  ifconfig
+  923  ip address show
+  924  sudo gedit /etc/hosts
+  925  sudo gedit /etc/network/interfaces 
+  926  nmcli
+  927  sudo netplan apply
+  928  sudo netplan--debug apply
+  929  sudo netplan --debug apply
+  930  ip a
+  931  sudo ethtool enp3s0
+  932  sudo ip addr add 192.168.9.139/24 dev enp3s0
+  933  sudo ifconfig enp3s0 down
+  934  sudo ifconfig enp3s0 
+  935  ifconfig
+  936  sudo ifconfig enp3s0 up
+  937  poweroff
+  938  /usr/bin/python3 /home/drey/Downloads/angry_calculator.py
+  939  /usr/bin/python3 /home/drey/Downloads/hoolaloops.py
+  940  sudo /usr/bin/python3 /home/drey/Downloads/hoolaloops.py
+  941  clear
+  942  poweroff
+  943  echo -a | xargs ls
+  944  echo -l | xargs ls
+  945  echo 1 + 1 | bc
+  946  acpi
+  947  /usr/bin/python3 /home/drey/Downloads/hoolaloops.py
+  948  /usr/bin/python3 /home/drey/Downloads/wrandom.py
+  949  top
+  950  ls
+  951  curl ifconfig.me
+  952  ifconfig
+  953  nmcli
+  954  sudo ifconfig enp3s0 up
+  955  ifconfig
+  956  nmcli
+  957  nmcli device show 
+  958  clear
+  959  nmcli --help
+  960  nmcli n
+  961  nmcli d
+  962  nmcli m
+  963  nmcli g
+  964  nmcli 
+  965  man nmcli
+  966  /usr/bin/python3 /home/drey/Downloads/wrandom.py
+  967  /usr/bin/python3 /home/drey/Downloads/wrandom.py/usr/bin/python3 /home/drey/Downloads/wrandom.py
+  968  /usr/bin/python3 /home/drey/Downloads/wrandom.py
+  969  /usr/bin/python3 /home/drey/Downloads/dovesturtles.py
+  970  htop
+  971  top
+  972  iperf
+  973  top
+  974  cd dryden/Twitter Videos
+  975  cd dryden/Twitter\ Videos/
+  976  ls
+  977  sudo gunzip pfSense-CE-2.4.5-RELEASE-p1-amd64.iso.gz pfSense-CE-2.4.5-RELEASE-p1-amd64.iso.gz 
+  978  ip a
+  979  sudo ifconfig enp3s0 down
+  980  ifconfig
+  981  sudo ifconfig enp3s0 up
+  982  ip link
+  983  sudo netplan apply
+  984  sudo netplan--debug apply
+  985  sudo netplan --debug apply
+  986  sudo netplan apply
+  987  ip a
+  988  sudo gedit /etc/netplan/01-network-manager-all.yaml 
+  989  hostnamectl status 
+  990  sudo netplan apply 
+  991  ip addr show enp3s0
+  992  nmcli networking on 
+  993  nmcli device set enp3s0 managed yes 
+  994  nmcli
+  995  sudo ifconfig enp3s0 down
+  996  sudo ifconfig enp3s0 up
+  997  nmcli
+  998  nmcli device set enp3s0 managed yes 
+  999  reboot
+ 1000  top
+ 1001  ifconfig
+ 1002  ip a
+ 1003  nmcli
+ 1004  nmcli -h
+ 1005  ip -h
+ 1006  ifconfig cl
+ 1007  clear
+ 1008  nmcli
+ 1009  ifconfig enp3s0 up
+ 1010  sudo ifconfig enp3s0 up
+ 1011  nmcli
+ 1012  ifconfig
+ 1013  ip addr add dev enp3s0
+ 1014  sudo ip addr add dev enp3s0
+ 1015  ip link
+ 1016  ls /etc/netplan/
+ 1017  sudo netplan apply 
+ 1018  ip link
+ 1019  sudo gedit /etc/netplan/01-netcfg.yaml 
+ 1020  sudo netplan aplly
+ 1021  sudo netplan aply
+ 1022  sudo netplan apply
+ 1023  sudo gedit /etc/netplan/01-netcfg.yaml 
+ 1024  sudo gedit /etc/netplan/01-netcfg.yaml &
+ 1025  sudo gedit /etc/netplan/01-netcfg.yaml
+ 1026  /usr/bin/python3 /home/drey/Downloads/dovesturtles.py
+ 1027  pa -A
+ 1028  ps -A
+ 1029  gcore $PID
+ 1030  ip a
+ 1031  sudo netplan apply 
+ 1032  ip a
+ 1033  ge
+ 1034  gedit /etc/host.conf 
+ 1035  service tor status 
+ 1036  systemctl status torsocks
+ 1037  systemctl status tor
+ 1038  vivaldi&
+ 1039  sudo apt install firewalld
+ 1040  which wireguard
+ 1041  service firewalld status 
+ 1042  service iptables status 
+ 1043  sudo -s
+ 1044  ifconfig
+ 1045  less -f /var/log/syslog
+ 1046  df -h
+ 1047  ip addr
+ 1048  curl ifconfig.me
+ 1049  proxychains curl ifconfig.me
+ 1050  tail -f /var/log/syslog
+ 1051  last
+ 1052  last | grep dreezy
+ 1053  last | grep drey
+ 1054  last reboot | grep drey
+ 1055  lastlog
+ 1056  last reboot
+ 1057  clear
+ 1058  netstat -a
+ 1059  proxychains http://127.0.0.1:9392
+ 1060  service proxychains status
+ 1061  service status proxychains
+ 1062  systemctl status proxychains
+ 1063  proxychains firefox
+ 1064  clear
+ 1065  demsg
+ 1066  dmesg
+ 1067  clear
+ 1068  cat /etc/cups/cups-files.conf 
+ 1069  ls /etc/
+ 1070  cat /etc/sudoers
+ 1071  sudo su-
+ 1072  sudo s-
+ 1073  sudo -s
+ 1074  /usr/bin/python3 /home/drey/Downloads/wrandom.py
+ 1075  apt-list --upgradable
+ 1076  apt list --upgradable
+ 1077  sudo apt-get install upgrade
+ 1078  apt update
+ 1079  sudo apt update
+ 1080  sudo apt-get update
+ 1081  ifconfig wlan0
+ 1082  exit
+ 1083  ifconfig
+ 1084  sudo ip link set wlp2s0 down
+ 1085  ifconfig
+ 1086  ip a
+ 1087  apt list --upgradable 
+ 1088  sudo apt update 
+ 1089  sudo apt-get install update-manager
+ 1090  route
+ 1091  ip addr
+ 1092  ip route
+ 1093  clear
+ 1094  sudo dhclient
+ 1095  history 
+ 1096  ifconfig
+ 1097  cat /etc/network
+ 1098  cat /etc/netplan/01-network-manager-all.yaml 
+ 1099  poweroff
+ 1100  shtdown
+ 1101  shutdown
+ 1102  sudo poweroff
+ 1103  systemd-analyze 
+ 1104  systemd-analyze blame
+ 1105  ls -l libcrypt*
+ 1106  ldd /usr/bin/passwd 
+ 1107  echo $1
+ 1108  echo
+ 1109  set | head -5
+ 1110  set
+ 1111  route
+ 1112  ifup
+ 1113  ip
+ 1114  gedit /etc/services 
+ 1115  gedit /etc/selinux/semanage.conf 
+ 1116  gedit /etc/security/access.conf 
+ 1117  cat /etc/network/interfaces
+ 1118  sudo ifconfig enp3s0 up 
+ 1119  ifconfig
+ 1120  netstat -r
+ 1121  route
+ 1122  gedit /etc/resolv.conf 
+ 1123  gedit /etc/resolv.conf &
+ 1124  gedit /etc/hosts
+ 1125  gedit /etc/nsswitch.conf 
+ 1126  gedit /etc/hostname 
+ 1127  ethtool
+ 1128  ifup
+ 1129  dhclient
+ 1130  sudo dhclient
+ 1131  nmtui
+ 1132  nmcli nm status
+ 1133  nmcli status
+ 1134  nmcli nm
+ 1135  clear
+ 1136  ss
+ 1137  ss | wc -l
+ 1138  ss | head
+ 1139  clear
+ 1140  man ss
+ 1141  ss -lt
+ 1142  ss -lp
+ 1143  pump
+ 1144  ifconfig
+ 1145  ifconfig 
+ 1146  ip a
+ 1147  ss -lt
+ 1148  clear
+ 1149  netstat
+ 1150  w
+ 1151  who
+ 1152  ifconfig 
+ 1153  nmtui
+ 1154  sudo gedit /etc/NetworkManager/NetworkManager.conf 
+ 1155  sudo service network-manager restart
+ 1156  ifconfig 
+ 1157  sudo ifconfig enp3s0 down
+ 1158  sudo ifconfig enp3s0 up
+ 1159  ifconfig
+ 1160  sudo cp /etc/network/interfaces /etc/network_interfaces_backup
+ 1161  sudo gedit /etc/network/interfaces 
+ 1162  sudo service network-manager restart
+ 1163  ifconfig
+ 1164  ping 192.168.9.140
+ 1165  ifconfig
+ 1166  ping 192.168.9.140
+ 1167  clear
+ 1168  ss -lt
+ 1169  netstat -lt
+ 1170  netstat -a | head
+ 1171  htop
+ 1172  sudo apt update
+ 1173  sudo apt-get install ethtool
+ 1174  bind
+ 1175  pump
+ 1176  ethtool 
+ 1177  /usr/bin/python3 /home/drey/Downloads/wrandom.py
+ 1178  /usr/bin/python3 /home/drey/Downloads/dovesturtles.py
+ 1179  clear
+ 1180  /usr/bin/python3 /home/drey/Downloads/dovesturtles.py
+ 1181  clear
+ 1182  /usr/bin/python3 /home/drey/Downloads/dovesturtles.py
+ 1183  clear
+ 1184  /usr/bin/python3 /home/drey/Downloads/dovesturtles.py
+ 1185  clear
+ 1186  /usr/bin/python3 /home/drey/Downloads/dovesturtles.py
+ 1187  htop
+ 1188  fmem
+ 1189  smem
+ 1190  clear
+ 1191  iwconfig
+ 1192  nmtui
+ 1193  top
+ 1194  clear
+ 1195  top | grep vlc
+ 1196  top
+ 1197  sudo apt autoremove
+ 1198  exit
+ 1199  w
+ 1200  ps
+ 1201  ps -aux
+ 1202  ps t
+ 1203  who
+ 1204  ps
+ 1205  exit
+ 1206  echo "heyheyhey" | write drey pts/3
+ 1207  exit
+ 1208  /usr/bin/python3 /home/drey/Downloads/dictuppleslist.py
+ 1209  python Downloads/angry_calculator.py 
+ 1210  python3 Downloads/angry_calculator.py 
+ 1211  python Downloads/angry_calculator.py 
+ 1212  python3 Downloads/angry_calculator.py 
+ 1213  python Downloads/angry_calculator.py 
+ 1214  python2 Downloads/angry_calculator.py 
+ 1215  python3 Downloads/angry_calculator.py 
+ 1216  python2 Downloads/angry_calculator.py 
+ 1217  top
+ 1218  systemd-analyze 
+ 1219  systemd-analyze blame 
+ 1220  systemd-analyze blame | head
+ 1221  sudo systemctl disable openvas-manager.service 
+ 1222  sudo systemctl disable openvas-scanner.service 
+ 1223  exit
+ 1224  tcpdump -h
+ 1225  top
+ 1226  firewall-cmd --state 
+ 1227  firewall-cmd --check-config
+ 1228  firewall-cmd --list-lockdown-whitelist-uids 
+ 1229  firewall-cmd --query-panic 
+ 1230  nc -4
+ 1231  nc -4 80
+ 1232  nc -4 4444
+ 1233  nc -4
+ 1234  nc -l 9050
+ 1235  nc -l 3333
+ 1236  sudo apt install chromium
+ 1237  sudo apt install chromium-browser
+ 1238  nmconfig
+ 1239  nmcli
+ 1240  netstat -R
+ 1241  netstat -r
+ 1242  clear
+ 1243  usb-devices 
+ 1244  usb-devices | grep "manufacturer=Redmi8"
+ 1245  usb-devices | grep "manufacturer=Redmi"
+ 1246  usb-devices | grep product=Redmi 8
+ 1247  usb-devices | grep Product=Redmi 8
+ 1248  usb-devices | grep "Product=Redmi 8"
+ 1249  usb-devices | grep "Manufacturer=Xiami"
+ 1250  usb-devices | grep "Manufacturer=Xiami" -B 3
+ 1251  usb-devices 
+ 1252  usb-devices | grep "Manufacturer=Xiami" -B 3
+ 1253  usb-devices 
+ 1254  usb-devices | grep "Manufacturer=Xiami" -B 3
+ 1255  usb-devices | grep *xiomi
+ 1256  usb-devices | grep "Manufacturer=Xiami" -B 3
+ 1257  cd /run/user/1000/gvfs/
+ 1258  ls
+ 1259  cd mtp\:host\=%5Busb%3A001%2C012%5D/
+ 1260  ls
+ 1261  cd ..
+ 1262  ls
+ 1263  cd mtp\:host\=%5Busb%3A001%2C016%5D/
+ 1264  ls
+ 1265  cd SD\ card/
+ 1266  LS
+ 1267  ls
+ 1268  ./Over_the
+ 1269  ./Over_the_horizon.mp3
+ 1270  vlc Over_the_Horizon.mp3 
+ 1271  sudo vlc Over_the_Horizon.mp3 
+ 1272  cp Over_the_Horizon.mp3 /home/drey
+ 1273  cd ..
+ 1274  ls
+ 1275  cd SD\ card/
+ 1276  fdisk 
+ 1277  fdisk /dev/sda1
+ 1278  ls
+ 1279  cd Android/
+ 1280  ls
+ 1281  ls -R
+ 1282  fdupes
+ 1283  rdfind
+ 1284  fdf
+ 1285  picard
+ 1286  finddup
+ 1287  cd ../..
+ 1288  ls
+ 1289  cd Internal\ shared\ storage/
+ 1290  ls
+ 1291  gedit Bidvest\ vetting\ .pdf 
+ 1292  ls -R 
+ 1293  clear
+ 1294  cd ..
+ 1295  ls
+ 1296  cd ..
+ 1297  ls
+ 1298  cd ..
+ 1299  ls
+ 1300  ls -la
+ 1301  ls -al
+ 1302  ls -alh
+ 1303  ls -alH
+ 1304  cd ..
+ 1305  ls
+ 1306  udev
+ 1307  cd sudo/
+ 1308  ls
+ 1309  sudo ls
+ 1310  history 
+ 1311  cd ../..
+ 1312  ls
+ 1313  cd ~
+ 1314  ls
+ 1315  ls -lah Over_the_Horizon.mp3 
+ 1316  host
+ 1317  host -a
+ 1318  host 127.0.0.1
+ 1319  dig 127.0.0.1
+ 1320  traceroute 127.0.0.1
+ 1321  info netstat
+ 1322  man tcpdump
+ 1323  tcpdump -c 5
+ 1324  sudo tcpdump -c 5
+ 1325  sudo tcpdump 
+ 1326  sudo tcpdump > tcpdumpdata.txt
+ 1327  gedit tcpdumpdata.txt 
+ 1328  gedit tcpdumpdata.txt &
+ 1329  tail -f /var/log/syslog >> mylogs22-072020.txt
+ 1330  gedit mylogs22-072020.txt 
+ 1331  tshark
+ 1332  arp
+ 1333  info arp
+ 1334  nmap 
+ 1335  nmap 127.0.0.1
+ 1336  firewall-cmd 
+ 1337  info firewalld
+ 1338  firewalld --help
+ 1339  sudo firewalld --help
+ 1340  sudo firewall-cmd --help
+ 1341  nmap 127.0.0.1
+ 1342  nmap -sP 127.0.0.1
+ 1343  nmap -O 127.0.0.1
+ 1344  nmap --iflist
+ 1345  nc
+ 1346  info nc
+ 1347  ifconfig
+ 1348  top
+ 1349  sudo apt-get install chromium-browser
+ 1350  cat /etc/apt/sources.list.d/google-chrome.list
+ 1351  sudo dpkg --configure -a
+ 1352  sudo apt-get install chromium-browser
+ 1353  tcpdump 
+ 1354  sudo tcpdump 
+ 1355  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+ 1356  sudo apt install update google-chrome-stable 
+ 1357  sudo apt install upgrade google-chrome-stable 
+ 1358  sudo apt install mtr
+ 1359  usb-devices 
+ 1360  df
+ 1361  sudo blkid
+ 1362  sudo mkdir /media/usb
+ 1363  sudo mount /dev/sdc1 /media/usb/
+ 1364  ls
+ 1365  df -h
+ 1366  cd /dev/sdc
+ 1367  cd /dev/sdc1
+ 1368  cd /dev/
+ 1369  ls
+ 1370  cd ..
+ 1371  cd ~
+ 1372  lsblk
+ 1373  sudo mount /dev/sdd1 /media/usb/
+ 1374  udisksctl mount -b /dev/sdd1
+ 1375  udisksctl unmount -b /dev/sdd1
+ 1376  udisksctl mount -b /dev/sdd1
+ 1377  ls
+ 1378  rsync -av /home/drey/dreezy.sh /dev/usb
+ 1379  sudo rsync -av /home/drey/dreezy.sh /dev/usb
+ 1380  ls /dev/usb 
+ 1381  cd /dev/usb
+ 1382  cd /dev/
+ 1383  ls
+ 1384  ls usb
+ 1385  ls -la usb
+ 1386  ls -F usb
+ 1387  ls
+ 1388  set type=soa
+ 1389  nslookup 
+ 1390  poweroff
+ 1391  nslookup 
+ 1392  RESTART
+ 1393  restart
+ 1394  sudo restart
+ 1395  poweroff 
+ 1396  /usr/bin/python3
+ 1397  /usr/bin/python3 /home/drey/Downloads/my_guiapp.py
+ 1398  tail /etc/shadow
+ 1399  sudo tail /etc/shadow
+ 1400  sudo tail /etc/shadow | grep drey
+ 1401  sudo tail /etc/shadow | grep dreezy
+ 1402  cat /etc/shadow | grep drey
+ 1403  sudo cat /etc/shadow | grep drey
+ 1404  nl /etc/shadow
+ 1405  sudo nl /etc/shadow
+ 1406  sudo tail -n 45 /etc/shadow
+ 1407  sudo nl -n 45 /etc/shadow
+ 1408  sudo nl -c 45 /etc/shadow
+ 1409  sudo nl 45 /etc/shadow
+ 1410  sudo nl 45 /etc/shadow | sort 
+ 1411  nc -z localhost 1000-4000
+ 1412  reboot
+ 1413  reboot 
+ 1414  history > Desktop/command_history.txt
